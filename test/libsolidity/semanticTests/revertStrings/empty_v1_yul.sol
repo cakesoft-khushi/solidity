@@ -1,4 +1,3 @@
-pragma abicoder v1;
 contract C {
 	function f() public {
 		revert("");
@@ -6,6 +5,7 @@ contract C {
 }
 // ====
 // EVMVersion: >=byzantium
+// ABIEncoderV1Only: true
 // compileViaYul: true
 // revertStrings: debug
 // ----
